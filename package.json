@@ -17,9 +17,9 @@
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "yarn build",
-    "release": "yarn publish",
-    "releaseNext": "yarn publish --tag next",
+    "prepare": "run-s build",
+    "release": "np",
+    "releaseNext": "np --tag next",
     "format": "prettier {src,src/**}/*.{md,js,jsx,tsx} --write"
   },
   "peerDependencies": {
