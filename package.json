@@ -1,10 +1,10 @@
 {
-  "name": "react-form",
+  "name": "@nikku/react-form",
   "version": "4.0.0-alpha.14",
   "description": "⚛️ 💼 React hooks for managing form state and lifecycle",
   "author": "tannerlinsley",
   "license": "MIT",
-  "repository": "tannerlinsley/react-form",
+  "repository": "nikku/react-form",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
