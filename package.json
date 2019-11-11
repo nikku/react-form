@@ -11,7 +11,7 @@
     "access": "public"
   },
   "scripts": {
-    "all": "run-s format lint build",
+    "all": "run-s lint test build",
     "lint": "eslint src",
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
