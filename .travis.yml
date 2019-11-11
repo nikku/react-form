@@ -1,0 +1,5 @@
+node_js: node
+language: node_js
+
+script:
+  - npm run all
