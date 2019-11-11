@@ -8,6 +8,8 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
+    "all": "run-s format lint build",
+    "lint": "eslint src",
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
@@ -39,6 +41,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.x",
+    "npm-run-all": "^4.1.5",
     "prettier": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
