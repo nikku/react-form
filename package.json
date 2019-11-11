@@ -7,6 +7,9 @@
   "repository": "nikku/react-form",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "all": "run-s format lint build",
     "lint": "eslint src",
