@@ -4,10 +4,7 @@
       "@babel/env",
       {
         "modules": false,
-        "exclude": [
-          "@babel/plugin-transform-async-to-generator",
-          "@babel/plugin-transform-regenerator"
-        ]
+        "targets": "> 1%, not IE 11"
       }
     ],
     "@babel/react"
