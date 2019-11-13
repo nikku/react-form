@@ -24,9 +24,9 @@ export default function useAsyncDebounce(defaultFn, defaultWait = 0) {
       debounceRef.current.timeout = setTimeout(async () => {
         delete debounceRef.current.timeout
         try {
-          debounceRef.current.promise.resolve(await fn())
+          debounceRef.current.resolve(await fn())
         } catch (err) {
-          debounceRef.current.promise.reject(err)
+          debounceRef.current.reject(err)
         } finally {
           delete debounceRef.current.promise
           delete debounceRef.current.resolve
