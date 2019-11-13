@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-modules": "^0.1.0",
     "@babel/preset-react": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "2.x",
     "@typescript-eslint/parser": "2.x",
